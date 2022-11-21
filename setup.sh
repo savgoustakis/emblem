@@ -43,7 +43,7 @@ SKIP_BUILD=${SKIP_BUILD:-}
 SKIP_DEPLOY=${SKIP_DEPLOY:-}
 SKIP_SEEDING=${SKIP_SEEDING:-}
 USE_DEFAULT_ACCOUNT=${USE_DEFAULT_ACCOUNT:-}
-export REGION=${REGION:=us-central1}
+export REGION=${REGION:=australia-southeast1}
 
 # Check env variables are not empty strings
 if [[ -z "${PROD_PROJECT}" ]]; then
